@@ -1,12 +1,44 @@
-# React + Vite
+# 🏎️ F1 Streetwear – React E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **F1 Streetwear**, a stylish and minimal e-commerce platform built with React. Inspired by Internshala, Upstox, and modern fashion platforms, this project includes full authentication, cart features, OTP simulation, and a product detail system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 https://streetwea.netlify.app/
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Features
+
+- 🛍️ Browse stylish F1-themed products
+- 🔍 Product filtering with a search bar
+- 🧾 Product detail pages with "Add to Cart"
+- 🛒 Cart with add, remove, increase, decrease, clear
+- 👤 User Authentication (Signup, Login, Logout)
+- 🔐 Forgot Password with OTP Simulation
+- 💾 LocalStorage support for cart & login state
+- 📊 Google Sheets integration for capturing user data (optional)
+- 🎨 Styled using CSS Modules + Framer Motion animations
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: React, React Router, Framer Motion, CSS Modules
+- **State Management**: Context API
+- **Storage**: LocalStorage
+- **Backend (Optional)**: Google Apps Script for Google Sheets
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/f1-streetwear.git
+cd f1-streetwear
+npm install
+npm run dev
+
