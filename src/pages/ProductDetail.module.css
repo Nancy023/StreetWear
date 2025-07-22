@@ -1,0 +1,14 @@
+.detail {
+  padding: 2rem;
+  color: white;
+}
+
+.detail button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
